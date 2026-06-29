@@ -36,4 +36,22 @@ function cafeDaManha()
 }
 
 //Chamando a função PAI o que vai fazer o resultado das duas funçoes 
-cafeDaManha()
+//cafeDaManha()
+
+//Var é uma forma de declarar uma variavel global
+//Let declara uma variavel naquele escopo
+//Constant é uma variavel que o valor não muda
+
+//Funçoes com parametros 
+//Parametros são variaveis que só existem dentro do escopo das funçoes definidas
+torradeira("Pão de Forma" , 10.99 )
+
+function torradeira(pao, valor, nome = "Cliente")
+{
+    console.log("Torrada Feita com " + pao)
+    console.log("É um pedido de: " + nome)
+    console.log("No valor de: " + valor)
+}
+
+//Escopo de variaveis e multiplos parametros 
+
