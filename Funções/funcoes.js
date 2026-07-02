@@ -55,3 +55,17 @@ function torradeira(pao, valor, nome = "Cliente")
 
 //Escopo de variaveis e multiplos parametros 
 
+
+//Funçoes com retornos 
+//Basicamente funciona com a atribuição de uma variavel o resultado de uma Função 
+//EXEMPLO
+
+let resultado = soma(5, 5)
+
+function soma(numA, numB)
+{
+    let somatorio = numA + numB
+    return somatorio
+}
+
+console.log(`O resultado dessa função é ${resultado}`)
